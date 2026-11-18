@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>꼽주머니 개인정보 처리방침</title>
+<meta name="description" content="꼽주머니(Kkop-jumoney) 앱의 개인정보 처리방침 — 수집 항목, 이용 목적, Plaid 연동, 보관·보안, 사용자 권리.">
+<style>
+  :root{--bg:#faf6ee;--card:#fffdf8;--text:#2c2a26;--muted:#7a756c;--accent:#8ca98f;--accent-ink:#2f3d32;--line:#ece6da;--shadow:0 8px 30px rgba(60,50,30,.08);}
+  @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#1b1a17;--card:#242220;--text:#efeae0;--muted:#a39d91;--accent:#8ca98f;--accent-ink:#eafae9;--line:#332f2a;--shadow:0 8px 30px rgba(0,0,0,.4);}}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Pretendard",Segoe UI,Roboto,sans-serif;line-height:1.7;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:720px;margin:0 auto;padding:40px 16px 64px}
+  a.back{color:var(--accent-ink);font-weight:600;text-decoration:none;font-size:.92rem}
+  h1{font-size:1.9rem;letter-spacing:-.02em;margin:18px 0 6px}
+  .updated{color:var(--muted);font-size:.9rem;margin-bottom:28px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:24px 24px 8px;box-shadow:var(--shadow)}
+  h2{font-size:1.15rem;margin:28px 0 8px;letter-spacing:-.01em}
+  h2:first-of-type{margin-top:6px}
+  p,li{color:var(--text)}
+  .muted{color:var(--muted)}
+  ul{padding-left:20px;margin:8px 0 16px}
+  li{margin:4px 0}
+  code{background:rgba(140,169,143,.16);padding:1px 6px;border-radius:6px;font-size:.9em}
+  footer{margin-top:28px;color:var(--muted);font-size:.85rem;text-align:center}
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <a class="back" href="./index.html">← 꼽주머니 홈</a>
+    <h1>개인정보 처리방침</h1>
+    <div class="updated">최종 업데이트: 2026년 11월 18일</div>
+
+    <div class="card">
+      <p class="muted">꼽주머니(Kkop-jumoney, 이하 "앱")는 사용자의 개인 가계부 기능을 제공하기 위해 아래와 같이 개인정보를 처리합니다. 앱은 사용자가 직접 연결한 금융 데이터만을 사용하며, 가계부·예산 관리 외의 목적으로 이용하지 않습니다.</p>
+
+      <h2>1. 수집하는 정보</h2>
+      <ul>
+        <li><b>금융 거래 정보</b> — 사용자가 Plaid를 통해 연결한 계좌의 거래 내역(금액, 날짜, 가맹점명, 카테고리, 계좌 유형 등).</li>
+        <li><b>계정 정보</b> — 로그인 식별자(예: Google 로그인 시 제공되는 식별 정보), 닉네임, 인증 토큰.</li>
+        <li><b>사용자 입력 정보</b> — 직접 추가한 거래, 설정한 목표·예산, 메모.</li>
+      </ul>
+      <p class="muted">앱은 은행 로그인 자격 증명(아이디·비밀번호)을 직접 저장하거나 열람하지 않습니다. 은행 인증은 전적으로 Plaid를 통해 처리됩니다.</p>
+
+      <h2>2. 정보의 이용 목적</h2>
+      <ul>
+        <li>거래 내역 동기화 및 카테고리 자동 분류</li>
+        <li>목표·예산 관리와 소비 리포트 제공</li>
+        <li>캐릭터·알림 등 앱 기능 제공 및 사용자 인증</li>
+      </ul>
+
+      <h2>3. Plaid를 통한 금융 데이터 연동</h2>
+      <p>앱은 금융 계좌 연결 및 거래 내역 조회를 위해 <b>Plaid Inc.</b>의 서비스를 사용합니다. 사용자가 계좌를 연결하면 Plaid가 해당 금융기관으로부터 데이터를 안전하게 가져와 앱에 전달합니다. Plaid의 개인정보 처리방침은 <a href="https://plaid.com/legal/#end-user-privacy-policy" target="_blank" rel="noopener">plaid.com/legal</a> 에서 확인할 수 있습니다.</p>
+
+      <h2>4. 보관 및 보안</h2>
+      <ul>
+        <li>거래·계정 데이터는 앱 서버의 데이터베이스에 저장됩니다.</li>
+        <li>Plaid 액세스 토큰은 암호화하여 저장합니다.</li>
+        <li>API 요청은 사용자별 인증 토큰(JWT)으로 보호됩니다.</li>
+      </ul>
+
+      <h2>5. 제3자 제공</h2>
+      <p>앱은 사용자의 개인정보를 판매하지 않으며, 광고 목적으로 공유하지 않습니다. 데이터는 서비스 운영에 필요한 범위(예: 금융 데이터 연동을 위한 Plaid, 서버 호스팅)에서만 처리됩니다.</p>
+
+      <h2>6. 사용자의 권리</h2>
+      <ul>
+        <li>언제든지 앱 설정에서 연결된 은행 계좌를 해제할 수 있습니다.</li>
+        <li>계정 및 관련 데이터의 삭제를 요청할 수 있으며, 요청 시 저장된 거래·계정 정보가 삭제됩니다.</li>
+      </ul>
+
+      <h2>7. 문의</h2>
+      <p>개인정보 처리에 관한 문의는 아래로 연락해 주세요.<br>
+      <b>이메일:</b> <span id="contact">your-email@example.com</span></p>
+
+      <h2>8. 변경 고지</h2>
+      <p class="muted">본 방침은 법령 또는 서비스 변경에 따라 수정될 수 있으며, 변경 시 본 페이지를 통해 고지합니다.</p>
+    </div>
+
+    <footer>© 2026 꼽주머니 · LikeLion 프로젝트</footer>
+  </div>
+</body>
+</html>
